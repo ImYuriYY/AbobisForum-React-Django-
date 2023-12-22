@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(50, 50, 50);
+    color: wheat;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+
+.hat-image {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/backgrounds/retro-city-background.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hat-blind {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hat-text {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 65px;
+    color: rgb(236, 200, 133)!important;
+    text-shadow: 1px 0 1px black, 
+    0 1px 1px black, 
+    -1px 0 1px black, 
+    0 -1px 1px black;
+    font-family: cursive;
+}
+
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.autorize-wrapper {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 50px;
+}
+
+.autorize-link {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.autorize-link a {
+    text-decoration: none;
+    color: wheat;
+}
+.autorize-link a:hover {
+    color: rgb(209, 172, 102);
+    border-bottom: 1px solid rgb(209, 172, 102);
+}
+
+
+
+.registration-image-icon, .login-image-icon {
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;
+}
+.registration-image-icon {
+    background-image: url(../img/icons/register-icon.png);
+}
+.login-image-icon {
+    background-image: url(../img/icons/login-icon.png);
+}
+
+
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-centering {
+    margin: 50px 0;
+    width: 95%;
+    height: 100%;
+    display: flex;
+}
+
+.themes {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.right-menu {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.menu-title {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: rgb(20, 20, 20); 
+}
+.right-menu-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(35, 35, 35);
+}
+
+.last-message {
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.right-menu-user {
+    padding: 10px;
+}
+.right-menu-userslist-link {
+    color: wheat;
+    text-decoration: none;
+}
+.right-menu-userslist-link:hover {
+    color: rgb(209, 172, 102);
+    border-bottom: 1px solid rgb(209, 172, 102);
+}
+
+.global-theme {
+    position: relative;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(35, 35, 35);
+    border: 1px solid grey;
+}
+
+.global-theme-title {
+    font-size: 24px;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(20, 20, 20);
+}
+
+.global-theme-list {
+    list-style: none;
+    width: 100%;
+}
+.social-network {
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.social-network a {
+    color: wheat;
+    text-decoration: none;
+}
+.social-network a:hover {
+    color: rgb(209, 172, 102);
+    border-bottom: 1px solid rgb(209, 172, 102);
+}
+
+
+
+
+
+
+
+.theme {
+
+    width: 100%;
+    padding: 10px 20px;
+}
+.theme-links-wrapper {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.theme-link, .theme-owner {
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+}
+.theme-owner {
+    font-size: 14px;
+}
+
+.theme-link:hover, .theme-owner:hover {
+    color: rgb(209, 172, 102);
+    border-bottom: 1px solid rgb(209, 172, 102);
+}
+.add-theme-button {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/icons/add-icon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+    right: 20px;
+    top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.reg-log-wrapper {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reg-log-title {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+.reg-log-form {
+    width: 50%;
+    height: 90%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.reg-log-label {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: 26%;
+    border-bottom: 1px solid wheat;
+}
+.input-title {
+    width: 100%;
+    font-size: 20px;
+}
+.reg-log-label input {
+    color: wheat;
+    font-size: 18px;
+    width: 100%;
+    height: 35px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(20, 20, 20);
+}
+.input-help-text {
+    font-size: 12px;
+    width: 100%;
+}
+
+.reg-log-button-wrapper {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg-log-button {
+    width: 300px;
+    height: 100%;
+    font-size: 24px;
+    color: wheat;
+    cursor: pointer;
+    background-color: rgb(40, 40, 40);
+}
+.reg-log-button:hover {
+    background-color: rgb(25, 25, 25);
+}
+
+
+
+
+
+
+.user-profile-wrapper {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-block {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(30, 30, 30);
+}
+.user-title {
+    padding: 15px;
+    font-size: 30px;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+}
+.user-info {
+    width: 100%;
+}
+.user-names-wrapper {
+    width: 100%;
+    border-bottom: 1px solid wheat;
+}
+.user-name {
+    width: 100%;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.stat-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.info-block {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+
+
+
+.page-theme-wrapper {
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.page-theme-title {
+    width: 95%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+}
+.page-theme-name {
+    padding: 15px;
+    font-size: 25px;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.page-theme-create-info {
+    width: 25%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+.theme-owner-link, .message-owner-link {
+    text-decoration: none;
+    color: wheat;
+}
+.theme-owner-link {
+    margin-left: 5px;
+}
+.theme-owner-link:hover, .message-owner-link:hover {
+    color: rgb(209, 172, 102);
+    border-bottom: 1px solid rgb(209, 172, 102);
+}
+
+.page-theme-messages-wrapper {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.theme-message {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    border-bottom: 1px solid wheat;
+}
+
+.message-sender-info {
+    width: 20%;
+    height: 100%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(25, 25, 25);
+    border-top: 1px solid wheat;
+    border-right: 1px solid wheat;
+    border-left: 1px solid wheat;
+}
+.message-text {
+    width: 70%;
+    padding: 15px;
+}
+.message-send-data {
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+    height: 100%;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+

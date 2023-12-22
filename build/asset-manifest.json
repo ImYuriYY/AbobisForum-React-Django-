@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7df6bebd.css",
+    "main.js": "/static/js/main.08f5a676.js",
+    "static/media/retro-city-background.jpg": "/static/media/retro-city-background.ab2ec743d8f72f263ca6.jpg",
+    "static/media/login-icon.png": "/static/media/login-icon.65a2f8850b155fd4d68a.png",
+    "static/media/add-icon.png": "/static/media/add-icon.de5108eee4fc839cf66f.png",
+    "index.html": "/index.html",
+    "main.7df6bebd.css.map": "/static/css/main.7df6bebd.css.map",
+    "main.08f5a676.js.map": "/static/js/main.08f5a676.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7df6bebd.css",
+    "static/js/main.08f5a676.js"
+  ]
+}
